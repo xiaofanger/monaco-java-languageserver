@@ -1,0 +1,6 @@
+.DS_Store
+lib
+node_modules
+*.log
+dist
+example/server/config_win

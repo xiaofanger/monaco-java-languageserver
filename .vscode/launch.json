@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // "build": "npm run compile && webpack --config=webpack.config.js && npm run copy",
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Sample Server",
+            "program": "${workspaceRoot}/example/lib/server.js",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/example/lib/**/*.js"
+            ]
+        }
+    ]
+}
